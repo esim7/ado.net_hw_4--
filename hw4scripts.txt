@@ -1,0 +1,16 @@
+create database Sales;
+
+insert into Buyers (id, firstName, lastName) values('5347B07C-7288-4E69-B5F0-BE67B899CF7F', 'Вася', 'Пупкин');
+insert into Buyers (id, firstName, lastName) values('F80ADFA8-B473-40EF-8DA5-DC47DAB589E2', 'Иван', 'Иванов');
+insert into Buyers (id, firstName, lastName) values('5F13F2B5-2775-4F6B-885F-5ED709B0C382', 'Федор', 'Сидоров');
+insert into Buyers (id, firstName, lastName) values('C25097C9-30B8-47CB-9A2A-7BF452DF6FBC', 'Петя', 'Петров');
+
+insert into Sellers (id, firstName, lastName) values('48E2CD28-949E-48A2-9FB5-E0BB4BF7A469', 'Витайли', 'Петров');
+insert into Sellers (id, firstName, lastName) values('AAFB2D5A-EDC3-412F-906A-E90F1CEDEF03', 'Егор', 'Сидоров');
+insert into Sellers (id, firstName, lastName) values('8C6185E8-1A28-408C-8B60-B12C1FB20FF2', 'Евгений', 'Федоров');
+insert into Sellers (id, firstName, lastName) values('2B56AA2C-7F9D-40EB-8D34-7FB49C60C39A', 'Александр', 'Степанов');
+
+insert into Orders (id, sellerId, buyerId, orderPrice, [date]) values('80C15F30-2F23-4B64-A6F7-C904C72DB27A', '48E2CD28-949E-48A2-9FB5-E0BB4BF7A469', '5347B07C-7288-4E69-B5F0-BE67B899CF7F', 198254, '2019-10-11 14:51:37.723');
+insert into Orders (id, sellerId, buyerId, orderPrice, [date]) values('64FBF1FC-3339-45D9-8E0B-8B90D5376B08', 'AAFB2D5A-EDC3-412F-906A-E90F1CEDEF03', 'F80ADFA8-B473-40EF-8DA5-DC47DAB589E2', 20212, '2019-08-10 12:22:37.723');
+insert into Orders (id, sellerId, buyerId, orderPrice, [date]) values('BAA24214-81E1-475A-82B1-B47A39EE6ADA', '8C6185E8-1A28-408C-8B60-B12C1FB20FF2', '5F13F2B5-2775-4F6B-885F-5ED709B0C382', 321544, '2019-05-02 15:31:37.723');
+insert into Orders (id, sellerId, buyerId, orderPrice, [date]) values('79498EE9-1D9B-4CDA-859D-44661D6DC9F8', '2B56AA2C-7F9D-40EB-8D34-7FB49C60C39A', 'C25097C9-30B8-47CB-9A2A-7BF452DF6FBC', 102000, '2019-01-04 18:40:37.723');
