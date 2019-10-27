@@ -1,0 +1,10 @@
+C:\Users\home\source\repos\homew4\homew4\bin\Debug\homew4.exe.config
+C:\Users\home\source\repos\homew4\homew4\bin\Debug\homew4.exe
+C:\Users\home\source\repos\homew4\homew4\bin\Debug\homew4.pdb
+C:\Users\home\source\repos\homew4\homew4\obj\Debug\homew4.csprojAssemblyReference.cache
+C:\Users\home\source\repos\homew4\homew4\obj\Debug\homew4.Form1.resources
+C:\Users\home\source\repos\homew4\homew4\obj\Debug\homew4.Properties.Resources.resources
+C:\Users\home\source\repos\homew4\homew4\obj\Debug\homew4.csproj.GenerateResource.cache
+C:\Users\home\source\repos\homew4\homew4\obj\Debug\homew4.csproj.CoreCompileInputs.cache
+C:\Users\home\source\repos\homew4\homew4\obj\Debug\homew4.exe
+C:\Users\home\source\repos\homew4\homew4\obj\Debug\homew4.pdb
