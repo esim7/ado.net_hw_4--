@@ -48,6 +48,7 @@ namespace homew4
                             LastName = sqlDataReader["lastName"].ToString(),
                         });
                     }
+                    textBox1.Clear();
                     for (int i = 0; i < buyers.Count; i++)
                     {
                         textBox1.Text += buyers[i].FirstName.ToString() + " \r";
@@ -78,6 +79,7 @@ namespace homew4
                             LastName = sqlDataReader["lastName"].ToString(),
                         });
                     }
+                    textBox1.Clear();
                     for (int i = 0; i < sellers.Count; i++)
                     {
                         textBox1.Text += sellers[i].FirstName.ToString() + " \r";
@@ -110,6 +112,7 @@ namespace homew4
                             Date = DateTime.Parse(sqlDataReader["date"].ToString())
                         });
                     }
+                    textBox1.Clear();
                     for (int i = 0; i < orders.Count; i++)
                     {
                         textBox1.Text += orders[i].SellerId.ToString() + " \r";
